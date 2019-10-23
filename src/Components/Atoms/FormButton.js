@@ -2,7 +2,7 @@ import React from 'react';
 
 const FormButton= () =>{
     return(
-        <div>23 degrees</div>
+        <button>Form Button</button>
     )
 }
 

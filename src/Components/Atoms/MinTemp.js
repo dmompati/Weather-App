@@ -2,7 +2,7 @@ import React from 'react';
 
 const MinTemp = () =>{
     return(
-        <a>Complain</a>
+        <a>13 degrees</a>
     )
 }
 

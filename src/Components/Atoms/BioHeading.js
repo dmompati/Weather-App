@@ -2,7 +2,7 @@ import React from 'react';
 
 const BioHeading= () =>{
     return(
-        <div>23 degrees</div>
+        <h1>Bio Heading</h1>
     )
 }
 

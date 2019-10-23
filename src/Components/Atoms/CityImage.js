@@ -2,7 +2,7 @@ import React from 'react';
 
 const CityImage = () =>{
     return(
-        <div>23 degrees</div>
+        <div>CityImage</div>
     )
 }
 
