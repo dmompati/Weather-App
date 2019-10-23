@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Day = () =>{
+const Day = ({day, ...props}) =>{
     return(
-        <div>Day</div>
+        <h1>{Day}</h1>
     )
 }
 

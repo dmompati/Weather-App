@@ -1,8 +1,8 @@
 import React from 'react';
 
-const CityImage = () =>{
+const CityImage = ({cityImage, ...props}) =>{
     return(
-        <div>CityImage</div>
+        <div>{cityImage}</div>
     )
 }
 

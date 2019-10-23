@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BioHeading= () =>{
+const BioHeading= ({bio, ...props}) =>{
     return(
-        <h1>Bio Heading</h1>
+        <h1>{bio}</h1>
     )
 }
 

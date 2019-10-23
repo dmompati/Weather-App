@@ -1,8 +1,8 @@
 import React from 'react';
 
-const CityName = () =>{
+const CityName = ({CityName}) =>{
     return(
-        <div>23 degrees</div>
+        <div>{CityName}</div>
     )
 }
 
