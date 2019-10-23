@@ -1,6 +1,6 @@
 import React from 'react';
-import FormInput from './Atoms/FormInput';
-import Label from './Atoms/Label';
+import FormInput from '../Atoms/FormInput';
+import Label from '../Atoms/Label';
 
 const FormSection = () =>{
     return(

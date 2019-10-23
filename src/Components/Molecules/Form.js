@@ -1,7 +1,7 @@
 import React from 'react';
 import FormSection from './FormSection';
-import FormTitle from './Atoms/FormTitle';
-import FormButton from './Atoms/FormButton';
+import FormTitle from '../Atoms/FormTitle';
+import FormButton from '../Atoms/FormButton';
 
 
 const Form = () =>{

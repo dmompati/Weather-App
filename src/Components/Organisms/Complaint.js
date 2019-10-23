@@ -1,6 +1,6 @@
 import React from 'react';
-import Bio from './Molecules/Bio';
-import Form from './Molecules/Form';
+import Bio from '../Molecules/Bio';
+import Form from '../Molecules/Form';
 
 
 const Complaint = () =>{

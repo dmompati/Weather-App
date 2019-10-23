@@ -1,12 +1,13 @@
 import React from 'react';
-import CurrentWeather from './CurrentWeather';
-import CurrentWeatherNew from './CurrentWeather';
+import MainWeather from '././Components/Pages/MainWeather';
+import MainComplaint from '././Components/Pages/MainComplaint';
 
 
 function App() {
   return (
     <div className="App">
-      <CurrentWeather city = "London" temperature = "13" />
+      <MainComplaint />
+      <MainWeather />
     </div>
   );
 }

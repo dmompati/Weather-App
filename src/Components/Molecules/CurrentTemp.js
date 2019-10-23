@@ -1,7 +1,7 @@
 import React from 'react';
-import CityName from './Atoms/CityName';
-import CityImage from './Atoms/CityImage';
-import Temp from './Atoms/Temp';
+import CityName from '../Atoms/CityName';
+import CityImage from '../Atoms/CityImage';
+import Temp from '../Atoms/Temp';
 
 const CurrentTemp = () =>{
     return(

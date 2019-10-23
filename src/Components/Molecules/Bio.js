@@ -1,7 +1,7 @@
 import React from 'react';
-import BioText from './Atoms/BioText';
-import BioImage from './Atoms/BioImage';
-import BioHeading from './Atoms/BioHeading';
+import BioText from '../Atoms/BioText';
+import BioImage from '../Atoms/BioImage';
+import BioHeading from '../Atoms/BioHeading';
 
 const Bio = () =>{
     return(

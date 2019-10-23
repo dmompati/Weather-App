@@ -1,14 +1,17 @@
 import React from 'react';
-import CurrentTemp from './Molecules/CurrentTemp';
+import WeatherHeader from '../Templates/WeatherHeader';
+import Complaint from '../Organisms/Complaint';
 
 
 
-const WeatherView = () =>{
+
+const MainComplaint = () =>{
     return(
         <div>
-        <CurrentTemp />
+        <WeatherHeader />
+        <Complaint />
         </div>
     )
 }
 
-export default WeatherView;
+export default MainComplaint;

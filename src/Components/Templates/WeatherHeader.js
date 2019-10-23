@@ -1,9 +1,9 @@
 import React from 'react';
-import CurrentTemp from './Molecules/CurrentTemp';
+import CurrentTemp from '../Molecules/CurrentTemp';
 
 
 
-const WeatherView = () =>{
+const WeatherHeader = () =>{
     return(
         <div>
         <CurrentTemp />
@@ -11,4 +11,4 @@ const WeatherView = () =>{
     )
 }
 
-export default WeatherView;
+export default WeatherHeader;

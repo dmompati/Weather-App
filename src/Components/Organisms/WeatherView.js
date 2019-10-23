@@ -1,8 +1,8 @@
 import React from 'react';
-import DayTemp from './Molecules/DayTemp';
-import Label from './Atoms/Label';
-import RedirectionLink from './Atoms/RedirectionLink';
-import HourlyTemp from './Molecules/HourlyTemp';
+import DayTemp from '../Molecules/DayTemp';
+import Label from '../Atoms/Label';
+import RedirectionLink from '../Atoms/RedirectionLink';
+import HourlyTemp from '../Molecules/HourlyTemp';
 
 
 const WeatherView = () =>{
