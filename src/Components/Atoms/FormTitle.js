@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FormTitle= () =>{
+const FormTitle= ({}) =>{
     return(
         <div>Form Heading</div>
     )
