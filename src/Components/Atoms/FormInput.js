@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FormInput= () =>{
+const FormInput= ({input, ...props}) =>{
     return(
         <input></input>
     )

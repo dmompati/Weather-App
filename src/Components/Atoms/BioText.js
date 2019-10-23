@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BioText= () =>{
+const BioText= ({bioText, ...props}) =>{
     return(
-        <div>23 degrees</div>
+        <div>{bioText}</div>
     )
 }
 

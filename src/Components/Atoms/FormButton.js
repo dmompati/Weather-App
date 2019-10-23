@@ -1,8 +1,8 @@
 import React from 'react';
 
-const FormButton= () =>{
+const FormButton= ({button, ...props}) =>{
     return(
-        <div>23 degrees</div>
+        <button>{button}</button>
     )
 }
 

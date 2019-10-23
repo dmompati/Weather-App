@@ -2,7 +2,7 @@ import React from 'react';
 
 const MaxTemp = () =>{
     return(
-        <a>Complain</a>
+        <a>30 Degrees</a>
     )
 }
 

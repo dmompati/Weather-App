@@ -1,6 +1,6 @@
 import React from 'react';
-import WeatherHeader from '../Templates/WeatherHeader';
-import Complaint from '../Organisms/Complaint';
+import WeatherHeader from '../Components/Templates/WeatherHeader';
+import Complaint from '../Components/Organisms/Complaint';
 
 
 

@@ -1,8 +1,8 @@
 import React from 'react';
 
-const FormTitle= () =>{
+const FormTitle= ({}) =>{
     return(
-        <div>23 degrees</div>
+        <div>Form Heading</div>
     )
 }
 

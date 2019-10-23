@@ -2,7 +2,7 @@ import React from 'react';
 
 const RedirectionLink = () =>{
     return(
-        <a>Complain</a>
+        <a>Send a link</a>
     )
 }
 

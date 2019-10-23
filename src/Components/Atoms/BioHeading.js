@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BioHeading= () =>{
+const BioHeading= ({bio, ...props}) =>{
     return(
-        <div>23 degrees</div>
+        <h1>{bio}</h1>
     )
 }
 
