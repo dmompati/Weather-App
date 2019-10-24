@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BioText= ({bioText, ...props}) =>{
+const BioText= ({BioText, ...props}) =>{
     return(
-        <div>{bioText}</div>
+        <div>{BioText}</div>
     )
 }
 

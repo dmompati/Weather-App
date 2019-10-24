@@ -1,8 +1,8 @@
 import React from 'react';
 
-const MaxTemp = () =>{
+const MaxTemp = ({MaxTemp, ...props}) =>{
     return(
-        <a>30 Degrees</a>
+        <p>{MaxTemp}</p>
     )
 }
 

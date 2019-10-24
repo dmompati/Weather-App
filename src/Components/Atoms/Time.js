@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Time = () =>{
+const Time = ({Time, ...props}) =>{
     return(
-        <div>10am</div>
+        <p>{Time}</p>
     )
 }
 

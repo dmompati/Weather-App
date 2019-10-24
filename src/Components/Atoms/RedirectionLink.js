@@ -1,8 +1,8 @@
 import React from 'react';
 
-const RedirectionLink = () =>{
+const RedirectionLink = ({RedirectionLink, ...props}) =>{
     return(
-        <a>Send a link</a>
+        <a>{RedirectionLink}</a>
     )
 }
 

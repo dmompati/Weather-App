@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Day = ({day, ...props}) =>{
+const Day = ({Day, ...props}) =>{
     return(
         <h1>{Day}</h1>
     )

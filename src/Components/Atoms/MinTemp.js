@@ -1,8 +1,8 @@
 import React from 'react';
 
-const MinTemp = () =>{
+const MinTemp = ({MinTemp, ...props}) =>{
     return(
-        <a>13 degrees</a>
+        <p>{MinTemp}</p>
     )
 }
 

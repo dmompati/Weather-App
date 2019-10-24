@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Temp = () =>{
+const Temp = ({Temp, ...props}) =>{
     return(
-        <div>23 degrees</div>
+        <p>{Temp}</p>
     )
 }
 

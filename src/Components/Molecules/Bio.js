@@ -3,12 +3,12 @@ import BioText from '../Atoms/BioText';
 import BioImage from '../Atoms/BioImage';
 import BioHeading from '../Atoms/BioHeading';
 
-const Bio = () =>{
+const Bio = ({BioHeading, BioImage, BioText, ...props}) =>{
     return(
         <div>
-        <BioImage />
-        <BioHeading />
-        <BioText />
+        <BioImage bioimage = {BioImage}/>
+        <BioHeading bioheading = {BioHeading} />
+        <BioText biotext = {BioText} />
         </div>
     )
 }

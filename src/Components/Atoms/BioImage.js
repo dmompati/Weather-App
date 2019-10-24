@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BioImage= ({bioImage, ...props}) =>{
+const BioImage= ({BioImage, ...props}) =>{
     return(
-        <img>{bioImage}</img>
+        <img>{BioImage}</img>
     )
 }
 

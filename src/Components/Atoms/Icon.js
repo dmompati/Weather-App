@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Icon = () =>{
+const Icon = ({Icon, ...props}) =>{
     return(
-        <img></img>
+        <img>{Icon}</img>
     )
 }
 

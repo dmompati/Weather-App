@@ -1,8 +1,8 @@
 import React from 'react';
 
-const FormTitle= ({}) =>{
+const FormTitle= ({FormTitle, ...props}) =>{
     return(
-        <div>Form Heading</div>
+        <h1>{FormTitle}</h1>
     )
 }
 

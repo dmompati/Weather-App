@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CityName = ({CityName}) =>{
+const CityName = ({CityName, ...props}) =>{
     return(
         <div>{CityName}</div>
     )

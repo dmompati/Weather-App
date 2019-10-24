@@ -3,7 +3,7 @@ import CurrentTemp from '../Molecules/CurrentTemp';
 
 
 
-const WeatherHeader = () =>{
+const WeatherHeader = (props) =>{
     return(
         <div>
         <CurrentTemp />

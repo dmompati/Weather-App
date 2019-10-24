@@ -1,8 +1,8 @@
 import React from 'react';
 
-const FormButton= ({button, ...props}) =>{
+const FormButton= ({FormButton, ...props}) =>{
     return(
-        <button>{button}</button>
+        <button>{FormButton}</button>
     )
 }
 

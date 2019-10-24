@@ -2,11 +2,11 @@ import React from 'react';
 import Temp from '../Atoms/Temp';
 import Icon from '../Atoms/Icon';
 
-const Hourly = () =>{
+const Hourly = (Icon, Temp, ...props) =>{
     return(
         <div>
-        <Icon />
-        <Temp/>
+        <Icon icon = {Icon}/>
+        <Temp temp = {Temp}/>
         </div>
     )
 }

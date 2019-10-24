@@ -4,14 +4,16 @@ import FormTitle from '../Atoms/FormTitle';
 import FormButton from '../Atoms/FormButton';
 
 
-const Form = () =>{
+const Form = ({FormTitle, FormSection, FormButton, ...props}) =>{
     return(
         <div>
-        <FormTitle />
-        <FormSection />
-        <FormSection />
-        <FormSection />
-        <FormButton />
+        <form>
+        <FormTitle formtitle = {FormTitle} />
+        <FormSection/>
+        <FormSection/>
+        <FormSection/>
+        <FormButton formbutton = {FormButton}/>
+        </form>
         </div>
     )
 }

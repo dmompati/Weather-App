@@ -3,11 +3,11 @@ import Bio from '../Molecules/Bio';
 import Form from '../Molecules/Form';
 
 
-const Complaint = () =>{
+const Complaint = (props) =>{
     return(
         <div>
-        <Bio />
-        <Form />
+        <Bio bio = {Bio}/>
+        <Form form = {Form}/>
         </div>
     )
 }

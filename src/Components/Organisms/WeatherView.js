@@ -5,7 +5,7 @@ import RedirectionLink from '../Atoms/RedirectionLink';
 import HourlyTemp from '../Molecules/HourlyTemp';
 
 
-const WeatherView = () =>{
+const WeatherView = (props) =>{
     return(
         <div>
         <DayTemp />

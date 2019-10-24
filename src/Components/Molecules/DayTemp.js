@@ -4,13 +4,13 @@ import MaxTemp from '../Atoms/MaxTemp';
 import MinTemp from '../Atoms/MinTemp';
 import Icon from '../Atoms/Icon';
 
-const DailyWeather = () =>{
+const DailyWeather = ({Day, MaxTemp, MinTemp, Icon, ...props}) =>{
     return(
         <div>
-        <Day />
-        <MaxTemp />
-        <MinTemp />
-        <Icon />
+        <Day  day = {Day}/>
+        <MaxTemp maxtemp = {MaxTemp} />
+        <MinTemp mintemp = {MinTemp} />
+        <Icon icon = {Icon} />
         </div>
     )
 }

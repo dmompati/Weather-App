@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Label = () =>{
+const Label = ({Label, ...props}) =>{
     return(
-        <div>Label</div>
+        <h3>{Label}</h3>
     )
 }
 
