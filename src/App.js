@@ -1,14 +1,12 @@
 import React from 'react';
-import MainWeather from '././Components/Pages/MainWeather';
-import MainComplaint from '././Components/Pages/MainComplaint';
-
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppContainer from './containers/AppContainer';
 
 function App() {
   return (
-    <div className="App">
-      <MainComplaint />
-      <MainWeather />
-    </div>
+    <Router>
+      <AppContainer />
+    </Router>
   );
 }
 
