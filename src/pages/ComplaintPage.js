@@ -11,7 +11,7 @@ const ComplaintPage = ({ city, temperature, changeCity, ...props }) => {
       <Link to="/">
         <TextLink>I changed my mind!</TextLink>
       </Link>
-      <WeatherPerson />
+      <WeatherPerson /> 
       <ComplaintForm />
     </PageTemplate>
   );
