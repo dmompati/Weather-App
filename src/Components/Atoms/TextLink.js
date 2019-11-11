@@ -4,7 +4,7 @@ import './TextLink.css';
 
 const TextLink = ({ onButtonClick, ...props }) => {
   return (
-    <div>
+    <div className="complainButton">
       <button onClick={onButtonClick} className="TextLink">{props.children}</button>
     </div>
   );

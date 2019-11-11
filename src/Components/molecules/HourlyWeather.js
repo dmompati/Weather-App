@@ -12,7 +12,6 @@ const HourlyWeather = ({ list, ...props }) => {
         <HourlyWeatherItem
           key={item.dt}
           time={moment(item.dt_txt).format('h a')}
-          // time={item.dt}
           icon={item.weather[0].icon}
           maxTemp={Math.round(item.main.temp_max)}
         />
