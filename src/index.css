@@ -98,3 +98,39 @@ textarea{
     align-self: flex-end;
     margin: 1em;
 }
+
+.Avatar{
+    border-radius: 50%;
+    border: 5px solid #ED61AB;
+    width:100px;
+}
+
+
+.form-content h2{
+    font-size: 25px;
+}
+
+.weather-person h2{
+    font-size: 25px;
+
+}
+
+
+.weather-person p{
+    font-size: 10px;
+
+}
+
+.weather-person{
+    display: flex;
+    padding: 0.5em;
+}
+
+.CurrentWeather:after {
+    content:"";
+    background: -webkit-linear-gradient(right,rgba(237, 92, 175, 1) 22%, rgba(237, 93, 174, 1) 12%, rgba(245, 186, 122, 1) 100%);
+    display: block;
+    height:10px;
+    width: -webkit-fill-available;
+    bottom: 0;
+}

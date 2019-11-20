@@ -22,7 +22,6 @@ class ComplaintForm extends Component {
    });
  }
  handleSubmit(event) {
-  if (window.confirm('Are you sure you want to complain?'))
    event.preventDefault();
    this.setState({alert:true})
    fetch('https://jsonplaceholder.typicode.com/posts', {
@@ -47,12 +46,15 @@ class ComplaintForm extends Component {
  }
  render() {
    return (
+     <div className="form-content">
+     <h2><strong>Make a complaint</strong></h2>
      <form id='myform' onSubmit={this.handleSubmit}>
-       <FormField type="text" name="name" label="Name" value={this.state.name} onChange={this.handleChange}/>
-       <FormField type="text" name="email" label="Email Address" value={this.state.email} onChange={this.handleChange} />
-       <FormField type="textarea" name="message" label="Message" value={this.state.message} onChange={this.handleChange}/>
+       <FormField type="text" name="name" label="Your Name" value={this.state.name} onChange={this.handleChange}/>
+       <FormField type="text" name="email" label="Email" value={this.state.email} onChange={this.handleChange} />
+       <FormField type="textarea" name="message" label="Complaint" value={this.state.message} onChange={this.handleChange}/>
        <Button>Submit</Button>
      </form>
+     </div>
    );
  }
 }

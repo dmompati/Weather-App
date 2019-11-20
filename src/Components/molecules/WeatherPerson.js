@@ -4,7 +4,7 @@ import Profile from '../atoms/Profile';
 
 const WeatherPerson = () => {
   return (
-    <div>
+    <div className="weather-person">
       <Avatar />
       <Profile />
     </div>
