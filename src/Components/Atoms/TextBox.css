@@ -1,0 +1,8 @@
+p{
+    font-size:10px;
+}
+
+.textbox{
+    display: flex;
+    justify-content: center;
+}

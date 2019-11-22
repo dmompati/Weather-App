@@ -1,0 +1,39 @@
+.form-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-content h2{
+    font-size: 25px;
+    margin-left:25px;
+}
+
+.form-content label {
+ margin-bottom:10px; 
+ margin-top:10px;
+}
+
+.success button{
+    background-color: #ED61AB;
+    height: 35px;
+    width: 148px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border-style: none;
+    align-self: center;
+    margin: 1em;
+}
+
+.success{
+    padding:1.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.success h2{
+    font-size: 25px;
+}

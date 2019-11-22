@@ -12,12 +12,6 @@ body{
 
 
 }
-.minandmax{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 30px;
-}
 
 ul{
     display:flex;
@@ -25,18 +19,14 @@ ul{
     justify-content: center;
     padding: 10px;
 }
-li{
+.lists li{
     list-style-type: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 8px;
-
+    font-size: 12px;
 }
 
-img{
-    width:45px;
-}
 
 h3{
     font-size: 25px;
@@ -56,7 +46,9 @@ h2{
 }
 
 .todayTag, .upcomingTag{
-padding:1em;
+padding-left:1em;
+margin-bottom:-1em;
+margin-top:1em;
 }
 
 .complainButton{
@@ -99,32 +91,6 @@ textarea{
     margin: 1em;
 }
 
-.Avatar{
-    border-radius: 50%;
-    border: 5px solid #ED61AB;
-    width:100px;
-}
-
-
-.form-content h2{
-    font-size: 25px;
-}
-
-.weather-person h2{
-    font-size: 25px;
-
-}
-
-
-.weather-person p{
-    font-size: 10px;
-
-}
-
-.weather-person{
-    display: flex;
-    padding: 0.5em;
-}
 
 .CurrentWeather:after {
     content:"";

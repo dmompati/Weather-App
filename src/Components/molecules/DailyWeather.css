@@ -1,0 +1,10 @@
+.minandmax{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+.minny{
+    display: flex;
+    align-items: flex-end;
+}
