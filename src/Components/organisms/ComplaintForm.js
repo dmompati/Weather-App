@@ -56,7 +56,7 @@ class ComplaintForm extends Component {
       })
       .then(json => {
         console.log('response', json);
-        this.setState({ name: '', email: '', message: '', showDialogue: false });
+        this.setState({ name: '', email: '', message: '', showDialogue: true });
       })
       .catch(err => {
         console.log('error', err);

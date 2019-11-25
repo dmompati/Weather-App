@@ -46,4 +46,3 @@ import { WiDaySunny, WiNightClear, WiDayCloudy, WiNightAltCloudy, WiCloud, WiRai
   }  
 
 export default WeatherIcon;
-/* <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`}/>; */
